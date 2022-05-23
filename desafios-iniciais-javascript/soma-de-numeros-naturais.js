@@ -7,17 +7,24 @@ representando o limite inferior e o superior respectivamente.
 Saída: Para cada caso de teste, a saída consiste de uma linha contendo a 
 soma dos números naturais do intervalo. */
 
-let A = 1
-let B = 5
-let total = 0;
+/* lógica do exercicio:
+
+let A = 10
+let B = 1
 function soma(A, B){
   let i = A
   let soma = 0;
-  while (i < B) {
-    soma = soma + i 
-    i = i + 1
+  if (A <= B){
+    while (i <= B) {
+      soma = soma + i 
+      i = i + 1
+    }
   }
   return soma
 }
-console.log(soma(A, B))
+console.log(soma(A, B)) */
 
+// exercício para passar nos testes da plataforma:
+const A = parseInt(gets());
+const B = parseInt(gets());
+let total = (A + B) * (B - A + 1) / 2
