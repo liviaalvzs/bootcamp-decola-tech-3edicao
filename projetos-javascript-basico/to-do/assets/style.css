@@ -1,0 +1,60 @@
+*{
+    font-family: 'Noticia Text', serif;
+    font-weight: bold;
+}
+
+body {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e8c99b;
+    background-image: linear-gradient(90deg, #e8c99b 0%, #e8bc85 74%);
+
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: #772f1a;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #d1a671;
+  color: #772f1a;
+  text-align: center;
+  padding: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#tasks {
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #d1a671;
+  border-radius: 5px;
+  padding: 15px;
+  color: rgb(65, 30, 30);
+}
+
+.invisible{
+    display: none;
+}
+
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}

@@ -10,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: -60px;
-    color:aliceblue
+    color:#461220;
     
 }
 
@@ -19,18 +19,20 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 0%, #cea177 74%);
+    
 }
 
 button {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid lightcoral;
+    border: none;
     background-color: rgb(241, 214, 214);
-    color: lightcoral;
+    color:#461220;
     font-size: 16pt;
-    font-weight: 600;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -43,4 +45,5 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+    font-weight: bolder;
 }
