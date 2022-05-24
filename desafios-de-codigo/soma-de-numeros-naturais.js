@@ -28,3 +28,4 @@ console.log(soma(A, B)) */
 const A = parseInt(gets());
 const B = parseInt(gets());
 let total = (A + B) * (B - A + 1) / 2
+console.log(total)
