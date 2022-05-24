@@ -6,4 +6,4 @@ nota pode ir de 0 até 10.0, sempre com uma casa decimal. */
 var a = parseFloat(gets());
 var b = parseFloat(gets());
 var media = (a*3.5 + b*7.5)/11;            
-print("MEDIA = " + media.toFixed(5));
+console.log("MEDIA = " + media.toFixed(5));
