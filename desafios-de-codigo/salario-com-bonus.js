@@ -9,4 +9,4 @@ var sales  = parseFloat(gets());
 
 var valorTotal =  sales * 15.0 / 100  + salary ;
 
-print("TOTAL = R$ " + valorTotal.toFixed(2));
+console.log("TOTAL = R$ " + valorTotal.toFixed(2));
