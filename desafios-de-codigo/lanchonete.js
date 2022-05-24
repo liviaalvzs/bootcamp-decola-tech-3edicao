@@ -29,4 +29,4 @@
      }
      
      price = price * Y
-     print( "Total: R$ "  + price.toFixed(2));
+     console.log( "Total: R$ "  + price.toFixed(2));
